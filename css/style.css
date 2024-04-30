@@ -1,3 +1,93 @@
+:root {
+  --dark: #1f2937;
+  --light: #f9faf8;
+  --light-gray: #e5e7eb;
+  --accent: #3882f6;
+}
+
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-dark {
+  background-color: var(--dark);
+}
+
+.section-light {
+  background-color: var(--light);
+}
+
+.section-light-gray {
+  background-color: var(--light-gray);
+}
+
+.header-logo-text, .notice-header-text {
+  color: var(--light);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-link-text, .hero-secondary-text, .notice-secondary-text {
+  color: var(--light-gray);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero-main-text {
+  color: var(--light);
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-size: bolder;
+}
+
+.item-subtext {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+q {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-text {
+  color: var(--light);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--accent);
+  color: var(--light);
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.button-nofill {
+  border: 2px solid var(--light);
+}
+
+.notice {
+  background-color: var(--accent);
 }
